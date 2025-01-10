@@ -1,0 +1,24 @@
+@import url("/style/header.css");
+@import url("/style/banner.css");
+@import url("/style/carrossel.css");
+@import url("/style/topicos.css");
+@import url("/style/contato.css");
+@import url("/style/footer.css");
+
+
+:root{
+    --cor-de-fundo: #EBECEE;
+    --cor-cabecalho: #ffffff; 
+    --cor-titulo-cabecalho: #eb9b00;
+    --cor-item-cabecalho: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --fonte-principal:'Poppins', sans-serif;
+    --cor-titulos-cards: #002F52;
+    --fonte-logo: 'Josefin Sans', sans-serif;
+
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+}
+
